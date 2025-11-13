@@ -1,0 +1,261 @@
+.ExpandedHomeInfo {
+    color: black;
+    padding-bottom: 36em;
+    position: relative;
+
+    background-color: white;
+}
+
+.expanded-image-landing {
+    padding-top: 5em;
+    background-size: cover;
+    background-position: center;
+    height: 97vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.8em;
+    color: white;
+    z-index: 3;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    40% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    60% {
+        transform: translateX(-50%) translateY(-5px);
+    }
+}
+.expanded-image-landing::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#bottomLeftText {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 12em;
+    padding-left: 5em;
+    z-index: 3;
+    color: white;
+}
+
+#bottom-left-title {
+    font-size: 4.5em;
+    line-height: 1.3;
+    color: white;
+}
+
+#bottom-left-subtitle {
+    font-size: 1.3em;
+}
+
+#expanded-description {
+    color: white;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+#center {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.desc-grid {
+    display: grid;
+    border: 1px solid black;
+    padding: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 1.8em;
+    margin-top: 2em;
+}
+.desc-item {
+    padding: 7px;
+}
+
+.desc-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.desc-item p {
+    font-size: 1em;
+    color: black;
+}
+
+.desc-long {
+    margin-bottom: 5em;
+    color: black;
+    border-top: 1px solid black;
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+
+.desc-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.desc-long { /* hide section temp */
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-top: none !important;
+  }
+
+  #expanded-description { /* same as above */
+    padding: 2em 2em 0 2em !important;
+  }
+
+@media only screen and (max-width: 1368px) {
+    .ExpandedHomeInfo {
+        padding-bottom: 32em;
+    }
+    .desc-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .ExpandedHomeInfo {
+        padding-bottom: 32em;
+    }
+    .desc-grid {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .ExpandedHomeInfo {
+        padding-bottom: 68em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ExpandedHomeInfo {
+        padding-bottom: 73em;
+    }
+    #bottomLeftText {
+        padding-left: 2em;
+        padding-right: 0.5em;
+        padding-bottom: 10em;
+    }
+    #bottom-left-title {
+        font-size: 3em;
+    }
+
+    #bottom-left-subtitle {
+        font-size: 1em;
+    }
+
+    #expanded-description {
+        padding: 1em;
+    }
+
+    #center {
+        font-size: 1.5em;
+    }
+
+    .desc-grid {
+        grid-template-columns: 1fr;
+        width: 80%;
+    }
+
+    .desc-item {
+        padding: 10px;
+    }
+
+    .desc-long {
+        font-size: 1em;
+        padding-top: 15px;
+        margin-bottom: 3em;
+    }
+
+    .desc-button {
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #bottom-left-title {
+        font-size: 2.5em;
+    }
+
+    #bottom-left-subtitle {
+        font-size: 0.9em;
+    }
+
+    #center {
+        font-size: 1.2em;
+    }
+
+    .desc-grid {
+        width: 90%;
+    }
+
+    .desc-item {
+        padding: 5px;
+    }
+
+    .desc-long {
+        font-size: 0.9em;
+        padding-top: 10px;
+        margin-bottom: 2em;
+    }
+
+    .desc-button {
+        padding: 5px 10px;
+    }
+}
+
+.ExpandedHomeInfo {
+    padding-bottom: 2em !important;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .ExpandedHomeInfo {
+      padding-bottom: 2em !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .ExpandedHomeInfo {
+      padding-bottom: 2em !important;
+    }
+  }

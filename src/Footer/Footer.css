@@ -1,0 +1,156 @@
+/* .footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1140px;
+    gap: 70px; 
+}
+  
+.footer-column {
+    flex: 1;
+    text-align: center;
+}
+  
+.footer-column h3 {
+    font-size: 1.6rem; 
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+}
+  
+.footer-column h3::after {
+    content: "";
+    display: block;
+    width: 50px; 
+    height: 2px;
+    background-color: #007037;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.footer-links,
+.footer-contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-links li,
+.footer-contact li {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.footer-links li a,
+.footer-contact li p {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.footer-links li a:hover {
+    color: #007037;
+}
+
+.footer-links li a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #007037;
+    bottom: -6px; 
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.footer-links li a:hover::before {
+    width: 100%;
+}
+
+.footer-contact li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact li a:hover {
+    color: #007037;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-contact li i {
+    margin-right: 10px;
+}
+  
+.footer-bottom {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+  
+.footer-bottom a {
+    color: #007037;
+    text-decoration: none;
+}
+  
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+  
+@media (max-width: 900px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+  
+    .footer-column {
+        margin-bottom: 25px; 
+    }
+  
+    .footer-contact li {
+        justify-content: center;
+    }
+}
+  
+@media (max-width: 600px) {
+    .footer {
+        padding: 40px 10px; 
+    }
+  
+    .footer-column {
+        margin: 20px 0;
+    }
+  
+    .footer-column h3 {
+        font-size: 1.4rem;
+    }
+  
+    .footer-links li a,
+    .footer-contact li p {
+        font-size: 1rem;
+    }
+  
+    .footer-bottom {
+        font-size: 0.9rem;
+    }
+} */

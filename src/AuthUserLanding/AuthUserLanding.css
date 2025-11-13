@@ -1,0 +1,110 @@
+.AuthUserLanding {
+  background-color: whitesmoke;
+  padding-top: 8em;
+  height: auto;
+  padding-bottom: 3em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#authUserForm {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#authUserForm p {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+#authUserForm input[type="text"],
+#authUserForm select,
+#authUserForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#authUserForm input[type="text"]:focus,
+#authUserForm select:focus,
+#authUserForm textarea:focus {
+  outline: none;
+  border-color: #007037;
+}
+
+#authUserForm button {
+  width: 100%;
+  background-color: #007037;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#authUserForm button:hover {
+  background-color: black;
+}
+
+#authUserForm textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Style for the ComingSoonDisplay form */
+#comingSoonForm {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+#comingSoonForm input[type="text"],
+#comingSoonForm select,
+#comingSoonForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#comingSoonForm input[type="text"]:focus,
+#comingSoonForm select:focus,
+#comingSoonForm textarea:focus {
+  outline: none;
+  border-color: #007037;
+}
+
+#comingSoonForm button {
+  width: 100%;
+  background-color: #007037;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#comingSoonForm button:hover {
+  background-color: black;
+}
+
+
+@media (max-width: 900px) {
+}

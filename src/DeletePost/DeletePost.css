@@ -1,0 +1,42 @@
+.deletePost {
+  padding-bottom: 90em;
+  background-color: whitesmoke;
+  height: 100vh;
+  color: black;
+}
+
+#deleteTitle {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3em;
+}
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.postItem {
+  padding: 10px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  background-color: #007037;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.deleteButton:hover {
+  background-color: black;
+}
+
+.deleteButton:focus {
+  outline: none;
+}

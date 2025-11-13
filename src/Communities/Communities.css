@@ -1,0 +1,205 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+
+#communities-section {
+  text-align: center;
+  padding-top: 5vh;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.line {
+  height: 2px;
+  background-color: #007037;
+  width: 93%;
+  margin: 0 auto 20px auto;
+}
+
+#line-title {
+  display: block;
+  text-align: left;
+  color: black;
+  width: 100%;
+  padding-left: 3%;
+  line-height: 1;
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 0;
+  border: 17px solid white;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  background-color: white;
+}
+
+.card.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-image {
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.status-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+
+.status-banner.sold-out {
+  background-color: red;
+}
+
+.status-banner.coming-soon {
+  background-color: #FFA500; 
+  color: white;
+}
+
+.status-banner.on-sale {
+  background-color: #007037;
+}
+
+.card-content {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  text-align: left;
+  background-color: white; 
+}
+
+.card-header {
+  margin-top: 20px; 
+}
+
+.card-content .project-name {
+  font-size: 2.6em; 
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: black;
+  line-height: 1.1;
+  font-family: "Lato", sans-serif;
+}
+
+.card-content .location,
+.card-content .thumbnail-desc,
+.card-content .learn-more-button {
+  font-family: "Lato", sans-serif;
+}
+
+.card-content .location {
+  font-size: 1.6em; 
+  margin-bottom: 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+.card-content .thumbnail-desc {
+  font-size: 1.2em;
+  margin: 20px 0; 
+  line-height: 1.4;
+  color: #333;
+  text-align: center; 
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.learn-more-button {
+  font-size: 1em;
+  padding: 8px 25px; 
+  background-color: #007037; 
+  color: white;
+  border: 2px solid #007037; 
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  margin-top: 15px; 
+  margin-bottom: 20px; 
+  align-self: center; 
+}
+
+.learn-more-button:hover {
+  background-color: white; 
+  color: #007037; 
+  border-color: #007037; 
+}
+
+@media (max-width: 900px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card-image,
+  .card-content {
+    width: 100%;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .status-banner {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+
+  .card-content {
+    justify-content: center; 
+  }
+
+  .card-content .project-name {
+    font-size: 2em;
+  }
+
+  .card-content .location {
+    font-size: 1.2em;
+  }
+
+  .card-content .thumbnail-desc {
+    font-size: 1em;
+    margin: 10px 0; 
+  }
+
+  .learn-more-button {
+    font-size: 1em;
+    padding: 8px 20px;
+    margin-top: 5px;
+    background-color: #007037; 
+    color: white; 
+    margin-bottom: 10px; 
+    align-self: center; 
+  }
+
+  .learn-more-button:hover {
+    background-color: transparent; 
+    color: #007037; 
+    border: 2px solid #007037; 
+  }
+} */

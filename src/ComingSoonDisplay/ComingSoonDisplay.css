@@ -1,0 +1,188 @@
+/* ComingSoonDisplay.css */
+
+.coming-soon-display {
+    font-family: "Lato", sans-serif;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.coming-soon-container {
+    display: flex;
+    width: 90vw;
+    max-width: 1400px;
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    /* Removed border-radius to make corners sharp */
+    overflow: hidden;
+    height: auto;
+    align-items: stretch;
+}
+
+.image-container {
+    flex: 0 1 60%; /* Prevents shrinking below 60% */
+    min-width: 300px; /* Ensures a minimum width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative; /* For positioning the banner */
+}
+
+.property-image {
+    width: 100%;
+    height: 100%; /* Changed to fill the container */
+    object-fit: cover;
+    /* Removed border-radius to make corners sharp */
+    display: block;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.cs-status-banner {
+    position: absolute;
+    top: 0; /* Span across the top */
+    left: 0;
+    right: 0;
+    background-color: #007037; /* Main green color */
+    color: white;
+    padding: 10px 0; /* Adjusted padding */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; /* Center the text */
+    /* Removed border-radius to keep sharp corners */
+}
+
+.caption-container {
+    flex: 0 1 40%; /* Prevents shrinking below 40% */
+    min-width: 250px; /* Ensures a minimum width */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    position: relative; /* For positioning elements relative to container */
+}
+
+.status-text {
+    display: none; /* Hide the old status-text */
+}
+
+.project-name {
+    font-family: "Lato", sans-serif;
+    font-size: 3em;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mini-caption {
+    flex-grow: 1; /* Allows the caption to take up available space */
+}
+
+.mini-caption p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.6;
+    white-space: pre-wrap;
+}
+
+.cta-button {
+    padding: 7px 58px; /* Smaller vertically, wider horizontally */
+    font-size: 1.2em;
+    color: white;
+    background-color: #007037; /* Main green color */
+    border: 2px solid #007037; /* Green border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-self: center;
+    margin-top: 20px; /* Space from content above */
+    margin-bottom: 45px; /* Space from arrow */
+}
+
+.cta-button:hover {
+    background-color: white; /* On hover, background turns white */
+    color: #007037; /* Text color changes to green */
+    border-color: #007037; /* Border remains green */
+}
+
+.bounce-arrow {
+    align-self: center;
+    position: absolute;
+    bottom: 7px; /* Position arrow 7px from bottom */
+    left: 50%;
+    transform: translateX(-50%); /* Center the arrow horizontally */
+}
+
+.bounce-arrow svg {
+    width: 50px;
+    height: 65px;
+    fill: black; /* Ensures the arrow is black */
+}
+
+@media (max-width: 900px) {
+    .coming-soon-container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .image-container {
+        width: 100%;
+        min-width: unset; /* Reset min-width on mobile */
+        padding: 0;
+    }
+
+    .property-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover; /* Changed to cover */
+        /* Removed border-radius to make corners sharp */
+        box-shadow: none;
+        border: none;
+        margin: 0;
+    }
+
+    .cs-status-banner {
+        top: 0;
+        left: 0;
+        right: 0;
+        font-size: 1.2em;
+        padding: 8px 0; /* Adjusted padding */
+    }
+
+    .caption-container {
+        padding: 20px;
+        width: 100%;
+        min-width: unset; /* Reset min-width on mobile */
+    }
+
+    .project-name {
+        font-size: 2em;
+    }
+
+    .mini-caption p {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        margin-top: 20px;
+        margin-bottom: 60px; /* Increased to prevent overlap */
+    }
+
+    .bounce-arrow {
+        bottom: 10px; /* Adjusted to ensure it stays at bottom */
+    }
+
+    .bounce-arrow svg {
+        width: 40px; /* Reduced size on mobile */
+        height: 50px;
+    }
+}

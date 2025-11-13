@@ -1,0 +1,99 @@
+.login-section {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 1); /* Adjust the alpha value for transparency */
+  flex-direction: column;
+  padding-bottom: 70em;
+}
+
+#userForm {
+  padding: 30px;
+  margin-top: 2em;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 500px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#userForm:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+#userForm div {
+  margin-bottom: 15px;
+}
+
+#userForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+#userForm input[type="email"],
+#userForm input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  caret-color: black; /* Updated blinking cursor color */
+  outline: none; /* Remove the default outline */
+}
+
+#userForm input[type="email"]:focus,
+#userForm input[type="password"]:focus {
+  border: 2px solid #007037; /* Green outline on focus */
+  box-shadow: 0 0 5px rgba(0, 112, 55, 0.5); /* Subtle green glow */
+  caret-color: black; /* Black blinking cursor */
+}
+
+#userForm button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+#userForm button:hover {
+  background-color: #007037;
+}
+
+.response-message {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: whitesmoke;
+  border-left: 5px solid #007037;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .login-section {
+    padding-bottom: 70em;
+  }
+  #userForm {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-section {
+    padding-bottom: 70em;
+  }
+  #userForm {
+    width: 98%;
+    padding: 20px;
+  }
+
+  #userForm label,
+  #userForm button {
+    font-size: larger;
+  }
+}
