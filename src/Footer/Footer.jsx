@@ -1,5 +1,6 @@
 import { useNavigate, useLocation } from "react-router-dom";
-import SpeedwayLogoWhite from "../../public/white-colore-logo.png";
+
+const speedwayLogoWhite = "/white-colore-logo.png";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -52,7 +53,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="mb-0 mt-[-60px]  ">
               <img
-                src={SpeedwayLogoWhite}
+                src={speedwayLogoWhite}
                 alt="Speedway Homes"
                 className="w-48 h-auto ml-[-30px]"
               />

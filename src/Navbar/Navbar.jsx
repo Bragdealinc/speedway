@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import SpeedwayLogoWhite from "../../public/white-colore-logo.png";
+
+const speedwayLogoWhite = "/white-colore-logo.png";
 
 
 const Navbar = () => {
@@ -47,7 +48,7 @@ const Navbar = () => {
               onClick={handleNavigate("/")}
             >
               <img
-                src={SpeedwayLogoWhite}
+                src={speedwayLogoWhite}
                 alt="Speedway Homes"
                 className="h-[170px] w-[200px] mt-4 lg:ml-[-55px] ml-[-30px]"
               />

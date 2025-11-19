@@ -1,4 +1,4 @@
-import AboutImage from "../../src/assets/Saffron Living - Duplexes .png";
+import AboutImage from "../assets/Saffron Living - Duplexes .png";
 import FamilyImage from "../assets/family.jpg";
 import ExperienceBanner from "../experienceBanner/experienceBanner.jsx";
 import AboutSummary from "../ui/components/AboutSummary.jsx";
