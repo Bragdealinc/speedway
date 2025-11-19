@@ -1,4 +1,34 @@
-const asset = (relativePath) => new URL(relativePath, import.meta.url).href;
+import currentImg from "../assets/current.jpg";
+import currentProject1 from "../assets/current project/1-1.jpg";
+import currentProject2 from "../assets/current project/2-2.jpg";
+import currentProject3 from "../assets/current project/3-3.jpg";
+import currentProject4 from "../assets/current project/4-4.jpg";
+import currentProject5 from "../assets/current project/5-5.jpg";
+import currentProject6 from "../assets/current project/6-6.jpg";
+import currentProject7 from "../assets/current project/7-7.jpg";
+import currentProject8 from "../assets/current project/8-8.jpg";
+import currentProject9 from "../assets/current project/9-9.jpg";
+import currentProject10 from "../assets/current project/10-9a.jpg";
+import currentProject11 from "../assets/current project/11-10.jpg";
+import currentProject12 from "../assets/current project/12-11.jpg";
+import currentProject13 from "../assets/current project/13-12.jpg";
+import currentProject14 from "../assets/current project/14-13.jpg";
+import currentProject15 from "../assets/current project/15-14.jpg";
+import currentProject16 from "../assets/current project/16-15.jpg";
+import community2Img from "../assets/community2.jpg";
+import communityImg from "../assets/community.jpg";
+import community3Img from "../assets/community3.jpg";
+import familyImg from "../assets/family.jpg";
+import family2Img from "../assets/family2.jpg";
+import subdivisionImg from "../assets/27-Lot Subdivision.jpg";
+import houseBackgroundImg from "../assets/houseBackground.jpg";
+import playingImg from "../assets/playing.jpg";
+import saffronImg from "../assets/Saffron Living - Duplexes .png";
+import handshakeImg from "../assets/handshake.jpg";
+import lotusImg from "../assets/Lotus Living - Townhouses.jpg";
+import comingSoon1Img from "../assets/comming-soon-1.png";
+import comingSoon2Img from "../assets/comming-soon-2.png";
+import countBackgroundImg from "../assets/countBackground.jpeg";
 
 export const allProjects = [
   {
@@ -7,25 +37,25 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Duplexes",
     status: "Current",
-    image_url: asset("../assets/current.jpg"),
+    image_url: currentImg,
     thumbnail_desc: "14 duplexes",
     gallery: [
-      asset("../assets/current project/1-1.jpg"),
-      asset("../assets/current project/2-2.jpg"),
-      asset("../assets/current project/3-3.jpg"),
-      asset("../assets/current project/4-4.jpg"),
-      asset("../assets/current project/5-5.jpg"),
-      asset("../assets/current project/6-6.jpg"),
-      asset("../assets/current project/7-7.jpg"),
-      asset("../assets/current project/8-8.jpg"),
-      asset("../assets/current project/9-9.jpg"),
-      asset("../assets/current project/10-9a.jpg"),
-      asset("../assets/current project/11-10.jpg"),
-      asset("../assets/current project/12-11.jpg"),
-      asset("../assets/current project/13-12.jpg"),
-      asset("../assets/current project/14-13.jpg"),
-      asset("../assets/current project/15-14.jpg"),
-      asset("../assets/current project/16-15.jpg"),
+      currentProject1,
+      currentProject2,
+      currentProject3,
+      currentProject4,
+      currentProject5,
+      currentProject6,
+      currentProject7,
+      currentProject8,
+      currentProject9,
+      currentProject10,
+      currentProject11,
+      currentProject12,
+      currentProject13,
+      currentProject14,
+      currentProject15,
+      currentProject16,
     ],
     details: {
       description:
@@ -56,13 +86,13 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
-    image_url: asset("../assets/community2.jpg"),
+    image_url: community2Img,
     thumbnail_desc: "14 duplexes",
     gallery: [
-      asset("../assets/community2.jpg"),
-      asset("../assets/community.jpg"),
-      asset("../assets/community3.jpg"),
-      asset("../assets/family.jpg"),
+      community2Img,
+      communityImg,
+      community3Img,
+      familyImg,
     ],
     details: {
       description:
@@ -93,13 +123,13 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
-    image_url: asset("../assets/27-Lot Subdivision.jpg"),
+    image_url: subdivisionImg,
     thumbnail_desc: "27-lot single-family subdivision",
     gallery: [
-      asset("../assets/27-Lot Subdivision.jpg"),
-      asset("../assets/houseBackground.jpg"),
-      asset("../assets/family2.jpg"),
-      asset("../assets/playing.jpg"),
+      subdivisionImg,
+      houseBackgroundImg,
+      family2Img,
+      playingImg,
     ],
     details: {
       description:
@@ -130,13 +160,13 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
-    image_url: asset("../assets/Saffron Living - Duplexes .png"),
+    image_url: saffronImg,
     thumbnail_desc: "26 duplexes",
     gallery: [
-      asset("../assets/Saffron Living - Duplexes .png"),
-      asset("../assets/community.jpg"),
-      asset("../assets/handshake.jpg"),
-      asset("../assets/family.jpg"),
+      saffronImg,
+      communityImg,
+      handshakeImg,
+      familyImg,
     ],
     details: {
       description:
@@ -167,13 +197,13 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
-    image_url: asset("../assets/Lotus Living - Townhouses.jpg"),
+    image_url: lotusImg,
     thumbnail_desc: "94 townhomes",
     gallery: [
-      asset("../assets/Lotus Living - Townhouses.jpg"),
-      asset("../assets/community2.jpg"),
-      asset("../assets/family2.jpg"),
-      asset("../assets/playing.jpg"),
+      lotusImg,
+      community2Img,
+      family2Img,
+      playingImg,
     ],
     details: {
       description:
@@ -204,13 +234,13 @@ export const allProjects = [
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: asset("../assets/comming-soon-1.png"),
+    image_url: comingSoon1Img,
     thumbnail_desc: "23-Unit Townhouse Project in 7065 204 St, Langley",
     gallery: [
-      asset("../assets/comming-soon-1.png"),
-      asset("../assets/community.jpg"),
-      asset("../assets/houseBackground.jpg"),
-      asset("../assets/family.jpg"),
+      comingSoon1Img,
+      communityImg,
+      houseBackgroundImg,
+      familyImg,
     ],
     details: {
       description:
@@ -241,13 +271,13 @@ export const allProjects = [
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: asset("../assets/comming-soon-2.png"),
+    image_url: comingSoon2Img,
     thumbnail_desc: "19-Unit Townhouse Project",
     gallery: [
-      asset("../assets/comming-soon-2.png"),
-      asset("../assets/community3.jpg"),
-      asset("../assets/handshake.jpg"),
-      asset("../assets/playing.jpg"),
+      comingSoon2Img,
+      community3Img,
+      handshakeImg,
+      playingImg,
     ],
     details: {
       description:
@@ -278,13 +308,13 @@ export const allProjects = [
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: asset("../assets/countBackground.jpeg"),
+    image_url: countBackgroundImg,
     thumbnail_desc: "22-Unit Townhouse Project",
     gallery: [
-      asset("../assets/countBackground.jpeg"),
-      asset("../assets/community2.jpg"),
-      asset("../assets/family2.jpg"),
-      asset("../assets/houseBackground.jpg"),
+      countBackgroundImg,
+      community2Img,
+      family2Img,
+      houseBackgroundImg,
     ],
     details: {
       description:
