@@ -42,9 +42,9 @@ const Reviews = () => {
   };
 
   return (
-    <div className="w-full min-h-[900px] flex items-center justify-center overflow-hidden px-4 md:px-5  ">
-      <div className="relative w-full h-full flex flex-col md:flex-row text-white z-20">
-        <div className="flex flex-col justify-start text-center z-20 w-full md:w-[40%] p-[20px] md:p-[20px_40px]">
+    <div className="w-full min-h-[600px] flex items-center justify-center overflow-hidden px-4 md:px-5  ">
+      <div className="relative w-full h-full flex flex-col md:flex-row text-white z-20  ">
+        {/* <div className="flex flex-col justify-start text-center z-20 w-full md:w-[40%] p-[20px] md:p-[20px_40px]">
           <h2 className="text-[2.8em] font-bold mt-[75px] mb-[50px] relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:h-[2px] after:bg-[#007037] after:w-[35%]">Our Values</h2>
           <ul className="list-none p-0 mt-[15px]">
             {[
@@ -61,10 +61,10 @@ const Reviews = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col justify-start text-center z-20 w-full md:w-[60%] p-[20px] md:p-[20px_40px]">
-          <h2 className="text-[2.8em] font-bold mt-[75px] mb-[50px] relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:h-[2px] after:bg-[#007037] after:w-[50%]">What Our Clients Have to Say</h2>
+        <div className="flex flex-col justify-center text-center z-20 w-full md:w-[100%] p-[20px] md:p-[20px_40px]">
+          <h2 className="text-[2.8em] font-bold mt-[0px] mb-[50px] relative after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:h-[2px] after:bg-[#007037] after:w-[50%]">What Our Clients Have to Say</h2>
 
           <div className={`flex items-center justify-between max-w-[1000px] text-white py-[40px] mt-[20px] ${isAnimating ? 'opacity-80' : 'opacity-100'} transition-opacity duration-300 mx-auto`}>
             <button
@@ -94,7 +94,7 @@ const Reviews = () => {
           </div>
         </div>
 
-        <div className="hidden md:block absolute top-[5%] bottom-[45%] left-[40%] w-[2px] bg-white z-[2]"></div>
+        {/* <div className="hidden md:block absolute top-[5%] bottom-[45%] left-[40%] w-[2px] bg-white z-[2]"></div> */}
       </div>
     </div>
   );

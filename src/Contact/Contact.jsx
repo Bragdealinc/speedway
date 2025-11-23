@@ -72,7 +72,7 @@ const Contact = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+             We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
         </div>
 
@@ -185,12 +185,12 @@ const Contact = () => {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8"> Contact/homeowner care</h2>
               <ContactSidebar onPhoneClick={handlePhoneClick} />
             </div>
 
             {/* Additional Info */}
-            <div className="bg-green-50 rounded-2xl p-8 lg:p-10 border border-green-200">
+            {/* <div className="bg-green-50 rounded-2xl p-8 lg:p-10 border border-green-200">
               <h3 className="text-xl font-semibold text-green-800 mb-4">Why Choose Speedway Homes?</h3>
               <ul className="space-y-3 text-green-700">
                 <li className="flex items-start">
@@ -210,7 +210,7 @@ const Contact = () => {
                   <span>Comprehensive warranty and ongoing support</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
