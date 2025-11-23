@@ -142,7 +142,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-gray-400 text-sm">
-                &copy; 2025 Speedway Homes. All rights reserved.
+                &copy; 2025 Speedway Homes. All Rights Reserved.
               </p>
             </div>
             <div className="flex items-center space-x-6">
@@ -160,10 +160,10 @@ const Footer = () => {
                 Terms of Service
               </a>
               <a
-                href="https://acrsoftware.ca"
-                className="text-green-500 hover:text-green-400 transition-colors duration-300 text-sm"
+                href="https://bragdeal.com"
+                className="text-blue-500 hover:text-white-400 transition-colors duration-300 text-sm"
               >
-                Designed by ACR Software
+                Powered by BragDeal Inc. 
               </a>
             </div>
           </div>
