@@ -197,7 +197,7 @@ function CommunitiesGrid() {
             className="flex transition-transform duration-700 ease-out cursor-grab active:cursor-grabbing"
             style={{
               transform: `translateX(-${currentSlide * (100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%)`,
-              width: `${Math.max(list.length, 10) * (100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%`
+              width: `${Math.max(list.length, screenSize === 'mobile' ? 0 : 10) * (screenSize === 'mobile' ? 33.33 :100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%`
             }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
@@ -213,7 +213,7 @@ function CommunitiesGrid() {
           >
             {list.map((c, index) => (
               <div key={c.id} className="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-1 sm:px-2">
-                <article
+                <div
                   className="group bg-white border border-gray-200 rounded-lg sm:rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-2xl hover:ring-black/10 transform-gpu cursor-pointer"
                   onClick={() => handleCardClick(c)}  
                   onKeyDown={(e) => {
@@ -236,12 +236,12 @@ function CommunitiesGrid() {
                   </div>
                   <div className="px-3 pt-3 pb-4 sm:px-5 sm:pt-5 sm:pb-6">
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-2 mb-2 sm:mb-3">
-                      <h3 className="m-0 text-lg sm:text-xl font-medium text-gray-900">{c.project_name}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.project_name}</h3>
                      
                     </div>
-                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed">{c.thumbnail_desc}</p>
+                    <p className="text-gray-700 text-sm lg:text-lg leading-relaxed">{c.thumbnail_desc}</p>
                   </div>
-                </article>
+                </div>
               </div>
             ))}
           </div>
