@@ -27,13 +27,13 @@ import saffronImg from "../assets/Saffron Living - Duplexes .png";
 import handshakeImg from "../assets/handshake.jpg";
 import lotusImg from "../assets/Lotus Living - Townhouses.jpg";
 import comingSoon1Img from "../assets/comming-soon-1.png";
-import comingSoon2Img from "../assets/comming-soon-2.png";
-import countBackgroundImg from "../assets/countBackground.jpeg";
+import west from "../assets/west.png";
+import westClayton from "../assets/westClayton.png";
 
 export const allProjects = [
   {
     id: "latimer-Duplexes",
-    project_name: "Latimer Duplexes",
+    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street arri 76 Avenue. Township ot Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Current",
@@ -82,17 +82,14 @@ export const allProjects = [
   },
   {
     id: "latimer-living",
-    project_name: "Latimer Living",
+    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 ",
     location: "Langley, BC",
     type: "Duplexes",
-    status: "Sold Out",
-    image_url: community2Img,
-    thumbnail_desc: "14 duplexes",
+    status: "Coming Soon",
+    image_url: westClayton,
+    thumbnail_desc: "Townhomes - 18757 74 Avenue city of Surrey",
     gallery: [
-      community2Img,
-      communityImg,
-      community3Img,
-      familyImg,
+   westClayton
     ],
     details: {
       description:
@@ -119,7 +116,7 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates",
+    project_name: "Suncrest Estates (Sold Out) • 2740t single-family lots • 140 Street arui 60 Avenue. City of Surrey",
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
@@ -156,7 +153,7 @@ export const allProjects = [
   },
   {
     id: "saffron",
-    project_name: "Saffron",
+    project_name: "Saffron (Sold Out) • 26 Duplexes • 141 Street and 60 Avenue. Cty of Surrey",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -193,12 +190,12 @@ export const allProjects = [
   },
   {
     id: "lotus-living",
-    project_name: "Lotus Living",
+    project_name: "Lotus Living (Sold Out) - 94 Tmvnromes - 20860 76 Avenue",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
     image_url: lotusImg,
-    thumbnail_desc: "94 townhomes",
+    thumbnail_desc: "Township ot Langley enridge Estates (Coming Soon) 23 Townhomes",
     gallery: [
       lotusImg,
       community2Img,
@@ -229,8 +226,8 @@ export const allProjects = [
     },
   },
   {
-    id: "elmridge-central-gordon-23",
-    project_name: "Elmridge Estates",
+    id: "elmridge-central-gordon-23 k",
+    project_name: "Elmridge Estates (Coming Soon) 23 Townhomes • 7065 204 Street. Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
@@ -265,78 +262,41 @@ export const allProjects = [
       },
     },
   },
+  
   {
-    id: "elmridge-west-clayton-19",
-    project_name: "Elmridge Estates",
+    id: "elmridge-central-gordon-23",
+    project_name: "West Clayton Townhomes (Comming Soon) (Phase 1) -19 Townhomes - 7420 186B St, City of Surrey",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: comingSoon2Img,
-    thumbnail_desc: "19-Unit Townhouse Project",
+    image_url: west,
+    thumbnail_desc: "Townhomes - 7420 186B St, City of Surrey",
     gallery: [
-      comingSoon2Img,
-      community3Img,
-      handshakeImg,
-      playingImg,
+      west,
+   
     ],
     details: {
       description:
-        "Elmridge Estates will bring modern townhome living to this growing community. This 19-unit development offers contemporary design and prime location benefits.",
-      features: [
-        "Modern architectural design",
-        "Spacious 2-3 bedroom layouts",
-        "High-end interior finishes",
-        "Private balconies and patios",
-        "Energy-efficient construction",
-        // "West Clayton prime location",
-        "Secure parking facilities",
-        "Community green spaces",
-      ],
-      specifications: {
-        "Unit Types": "4 Bedroom Townhomes",
-        "Total Units": "19 Units",
-        "Square Footage": "1,600 to 2100 sqft",
-        Parking: "2 Spaces per Unit",
-        "Expected Completion": "2025",
-        Status: "Coming Soon",
-      },
-    },
-  },
-  {
-    id: "elmridge-west-clayton-22",
-    project_name: "Elmridge Estates",
-    location: "7065 204 St, Langley",
-    type: "Townhomes",
-    status: "Coming Soon",
-    image_url: countBackgroundImg,
-    thumbnail_desc: "22-Unit Townhouse Project",
-    gallery: [
-      countBackgroundImg,
-      community2Img,
-      family2Img,
-      houseBackgroundImg,
-    ],
-    details: {
-      description:
-        "This development expands our Elmridge Estates portfolio with 22 additional townhomes. This project continues our commitment to quality and community development.",
+        "Elmridge Estates in Central Gordon represents the future of modern townhome living. This exciting new development will feature 23 beautifully designed units in a prime location.",
       features: [
         "Contemporary townhome design",
-        "Modern open-concept living",
-        "Premium kitchen and bathroom finishes",
-        "Private outdoor living spaces",
+        "Modern open-concept layouts",
+        "Premium finishes and fixtures",
+        "Private outdoor spaces",
         "Energy-efficient building systems",
-        // "Prime West Clayton location",
+        "Prime Central Gordon location",
         "Underground parking facilities",
-        "Landscaped community areas",
+        "Community amenities and green spaces",
       ],
       specifications: {
         "Unit Types": "4 Bedroom Townhomes",
-        "Total Units": "22 Units",
-        "Square Footage": "1,600 to 2100 sqft",
+        "Total Units": "23 Units",
+        "Square Footage": "1600 - 2100 sq ft",
         Parking: "2 Spaces per Unit",
         "Expected Completion": "2025",
         Status: "Coming Soon",
       },
     },
   },
+  
 ];

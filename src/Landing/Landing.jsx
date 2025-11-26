@@ -38,7 +38,7 @@ function Landing() {
           </h1>
           <div className="relative">
             <h1 className="whitespace-nowrap overflow-hidden text-ellipsis font-black leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-[3.9rem] bg-[linear-gradient(to_top,#007037_40%,transparent_55%)]">
-              Enduring Values
+              Enduring Values.
             </h1>
           </div>
           <button

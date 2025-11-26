@@ -40,11 +40,11 @@ function About() {
       </section>
 
       {/* Mission Section */}
-      <section className="py-16 lg:py-20 bg-gray-50">
+      {/* <section className="py-16 lg:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Mission />
         </div>
-      </section>
+      </section> */}
 
       {/* Vision Section */}
       <section className="py-16 lg:py-20 bg-white">
@@ -95,7 +95,7 @@ function About() {
                 VP of Development
               </p>
               <p className="text-gray-600 leading-relaxed text-left">
-                B.Eng (Civil Engineering) - With a background in civil engineering and project management, Manveer combines technical expertise with a strategic, results-driven mindset that ensures success for Speedway Homes. Manveer balances technical, financial, regulatory, and site constraints to deliver efficient, practical, and high-quality outcomes. He is the founder of Common Ground Consulting, a development management firm trusted by leading developers to guide projects from concept through municipal approvals to final occupancy.
+                With a background in civil engineering and project management, Manveer combines technical expertise with a strategic, results-driven mindset that ensures success for Speedway Homes. Manveer balances technical, financial, regulatory, and site constraints to deliver efficient, practical, and high-quality outcomes. He is the founder of Common Ground Consulting, a development management firm trusted by leading developers to guide projects from concept through municipal approvals to final occupancy.
               </p>
             </div>
 
@@ -119,7 +119,7 @@ function About() {
       </section>
 
       {/* Our Values Section */}
-      <section className="py-20 lg:py-32 bg-white">
+      {/* <section className="py-20 lg:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 lg:mb-20">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
@@ -131,7 +131,7 @@ function About() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-            {/* Family Oriented */}
+            
             <div className="bg-gray-50 rounded-2xl p-8 lg:p-10 hover:shadow-lg transition-shadow duration-300">
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -152,7 +152,6 @@ function About() {
               </p>
             </div>
 
-            {/* Forward Thinking */}
             <div className="bg-gray-50 rounded-2xl p-8 lg:p-10 hover:shadow-lg transition-shadow duration-300">
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -176,7 +175,6 @@ function About() {
               </p>
             </div>
 
-            {/* Relationship Driven */}
             <div className="bg-gray-50 rounded-2xl p-8 lg:p-10 hover:shadow-lg transition-shadow duration-300">
               <div className="text-center mb-6">
                 <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -200,7 +198,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Info Cards Section */}
       {/* <section className="py-20 lg:py-32 bg-gray-50">

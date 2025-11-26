@@ -22,7 +22,7 @@ function InfoSection() {
           mainland.
         </h2>
         <p className="WhyInsulateText">
-          Welcome to Speedway Homes, a family-run business specializing in
+          Speedway Homes, is family-run business specializing in
           residential developments. Speedway Homes is committed to quality and
           excellence, focusing on delivering exceptional service and innovative
           solutions for each project. Whether you need a new home or a wise

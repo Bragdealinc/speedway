@@ -19,7 +19,6 @@ const Contact = () => {
     setIsLoading(true);
     setMessage('');
     setIsError(false);
-
     const formData = new FormData(form.current);
     const fullName = formData.get('name');
     const emailAddress = formData.get('email');
@@ -72,16 +71,14 @@ const Contact = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to start your next project? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+           We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
         </div>
-
         {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10">
             <h2 className="text-2xl font-bold text-gray-900 mb-8">Send us a Message</h2>
-            
             {message && (
               <div className={`mb-6 p-4 rounded-lg ${
                 isError 
@@ -91,7 +88,6 @@ const Contact = () => {
                 {message}
               </div>
             )}
-
             <form ref={form} onSubmit={sendEmail} className="space-y-6">
               <FormInput 
                 label="Full Name" 
@@ -124,7 +120,6 @@ const Contact = () => {
                 required 
                 placeholder="Tell us about your project or inquiry..."
               />
-              
               <button
                 type="submit"
                 disabled={isLoading}
@@ -179,18 +174,16 @@ const Contact = () => {
                 </button>
               </div>
             </div>
-
           </div>
-
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="bg-white rounded-2xl shadow-xl p-8 lg:p-10">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">Contact/homeowner care</h2>
               <ContactSidebar onPhoneClick={handlePhoneClick} />
             </div>
 
             {/* Additional Info */}
-            <div className="bg-green-50 rounded-2xl p-8 lg:p-10 border border-green-200">
+            {/* <div className="bg-green-50 rounded-2xl p-8 lg:p-10 border border-green-200">
               <h3 className="text-xl font-semibold text-green-800 mb-4">Why Choose Speedway Homes?</h3>
               <ul className="space-y-3 text-green-700">
                 <li className="flex items-start">
@@ -210,7 +203,7 @@ const Contact = () => {
                   <span>Comprehensive warranty and ongoing support</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
