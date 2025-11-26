@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import videoDron from "../assets/Drone Footage.mp4";
 
 function Landing() {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ function Landing() {
           className="w-full lg:h-[98vh] h-[50vh] object-cover"
         >
           <source
-            src="https://speedway-homes.sfo2.cdn.digitaloceanspaces.com/Footage.mp4"
+            src={videoDron}
             type="video/mp4"
           />
           Sorry, your browser doesn't support videos.
