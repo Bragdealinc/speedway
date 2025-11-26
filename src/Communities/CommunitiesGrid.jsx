@@ -197,7 +197,7 @@ function CommunitiesGrid() {
             className="flex transition-transform duration-700 ease-out cursor-grab active:cursor-grabbing"
             style={{
               transform: `translateX(-${currentSlide * (100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%)`,
-              width: `${Math.max(list.length, screenSize === 'mobile' ? 0 : 10) * (screenSize === 'mobile' ? 33.33 :100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%`
+              width: `${Math.max(list.length, screenSize === 'mobile' ? 1 : 10) * (screenSize === 'mobile' ? 14.4 :100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%`
             }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}
