@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import videoDron from "../assets/Drone Footage.mp4";
+import videoDrone from "../assets/Drone Footage.mp4";
 
 function Landing() {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ function Landing() {
   };
 
   return (
-    <div className="Landing relative block lg:h-screen h-[50vh] overflow-hidden">
+    <div className="Landing relative block lg:h-screen h-[40vh] overflow-hidden mt-[-90px] lg:mt-0">
       <div className="relative">
         <video
           autoPlay
@@ -24,7 +24,7 @@ function Landing() {
           className="w-full lg:h-[98vh] h-[50vh] object-cover"
         >
           <source
-            src={videoDron}
+            src={videoDrone}
             type="video/mp4"
           />
           Sorry, your browser doesn't support videos.
