@@ -33,7 +33,7 @@ import westClayton from "../assets/westClayton.png";
 export const allProjects = [
   {
     id: "latimer-Duplexes",
-    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street arri 76 Avenue. Township of Langley",
+    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street and 76 Avenue. Township of Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Current",
