@@ -42,12 +42,7 @@ function ProductDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              <div className="flex items-center gap-4 mb-6">
-                <h1 className="text-4xl font-bold text-gray-900">{project.project_name}</h1>
-                <span className={`px-4 py-2 rounded-full text-white text-sm font-medium ${getStatusClass(project.status)}`}>
-                  {project.status}
-                </span>
-              </div>
+              <h1 className="text-4xl font-bold text-gray-900 mb-6">{project.project_name}</h1>
               <p className="text-xl text-gray-600 mb-4">{project.location}</p>
               <p className="text-lg text-gray-700 leading-relaxed">{project.details.description}</p>
             </div>
@@ -86,6 +81,13 @@ function ProductDetail() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Project Gallery</h2>
               <div className="space-y-4">
                 <div className="relative">
+                  <span
+                    className={`absolute top-4 right-4 px-4 py-2 rounded-full text-white text-sm font-medium ${getStatusClass(
+                      project.status
+                    )}`}
+                  >
+                    {project.status}
+                  </span>
                   <img
                     src={project.gallery[selectedImage]}
                     alt={`${project.project_name} - Image ${selectedImage + 1}`}

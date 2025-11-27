@@ -116,7 +116,7 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates (Sold Out) • 2740t single-family lots • 140 Street arui 60 Avenue. City of Surrey",
+    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street arui 60 Avenue. City of Surrey",
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
@@ -153,7 +153,7 @@ export const allProjects = [
   },
   {
     id: "saffron",
-    project_name: "Saffron (Sold Out) • 26 Duplexes • 141 Street and 60 Avenue. Cty of Surrey",
+    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. Cty of Surrey",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -190,7 +190,7 @@ export const allProjects = [
   },
   {
     id: "lotus-living",
-    project_name: "Lotus Living (Sold Out) - 94 Tmvnromes - 20860 76 Avenue",
+    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
@@ -227,7 +227,7 @@ export const allProjects = [
   },
   {
     id: "elmridge-central-gordon-23 k",
-    project_name: "Elmridge Estates (Coming Soon) 23 Townhomes • 7065 204 Street. Township of Langley",
+    project_name: "Elmridge Estates (Coming Soon) 23 Townhomes - 7065 204 Street. Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
