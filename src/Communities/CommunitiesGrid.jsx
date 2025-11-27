@@ -38,6 +38,10 @@ function CommunitiesGrid() {
       : comingSoonProjects;
 
   useEffect(() => {
+    setCurrentSlide(0);
+  }, [activeTab]);
+
+  useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 640) {
         setScreenSize('mobile');
@@ -197,7 +201,7 @@ function CommunitiesGrid() {
             className="flex transition-transform duration-700 ease-out cursor-grab active:cursor-grabbing"
             style={{
               transform: `translateX(-${currentSlide * (100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%)`,
-              width: `${Math.max(list.length, screenSize === 'mobile' ? 1 : 10) * (screenSize === 'mobile' ? 14.4 :100 / (screenSize === 'mobile' ? 1 : screenSize === 'tablet' ? 2 : 3))}%`
+              width: screenSize === 'mobile' ? "100%" : "300%"
             }}
             onMouseDown={handleMouseDown}
             onMouseMove={handleMouseMove}

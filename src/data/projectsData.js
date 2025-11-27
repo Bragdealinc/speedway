@@ -38,7 +38,7 @@ export const allProjects = [
     type: "Duplexes",
     status: "Current",
     image_url: currentImg,
-    thumbnail_desc: "14 duplexes",
+    thumbnail_desc: "",
     gallery: [
       currentProject1,
       currentProject2,
@@ -87,7 +87,7 @@ export const allProjects = [
     type: "Duplexes",
     status: "Coming Soon",
     image_url: westClayton,
-    thumbnail_desc: "Townhomes - 18757 74 Avenue city of Surrey",
+    thumbnail_desc: "Townhomes - 18757 74 Avenue, City of Surrey",
     gallery: [
    westClayton
     ],
@@ -116,12 +116,12 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street arui 60 Avenue. City of Surrey",
+    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street and 60 Avenue. City of Surrey",
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
     image_url: subdivisionImg,
-    thumbnail_desc: "27-lot single-family subdivision",
+    thumbnail_desc: "",
     gallery: [
       subdivisionImg,
       houseBackgroundImg,
@@ -153,12 +153,12 @@ export const allProjects = [
   },
   {
     id: "saffron",
-    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. Cty of Surrey",
+    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. Ctiy of Surrey",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
     image_url: saffronImg,
-    thumbnail_desc: "26 duplexes",
+    thumbnail_desc: "",
     gallery: [
       saffronImg,
       communityImg,
@@ -195,7 +195,7 @@ export const allProjects = [
     type: "Townhomes",
     status: "Sold Out",
     image_url: lotusImg,
-    thumbnail_desc: "Township ot Langley enridge Estates (Coming Soon) 23 Townhomes",
+    thumbnail_desc: "Township of Langley",
     gallery: [
       lotusImg,
       community2Img,
@@ -227,7 +227,7 @@ export const allProjects = [
   },
   {
     id: "elmridge-central-gordon-23 k",
-    project_name: "Elmridge Estates (Coming Soon) 23 Townhomes - 7065 204 Street. Township of Langley",
+    project_name: "Elmridge Estates (Coming Soon) - 23 Townhomes - 7065 204 Street. Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
@@ -270,7 +270,7 @@ export const allProjects = [
     type: "Townhomes",
     status: "Coming Soon",
     image_url: west,
-    thumbnail_desc: "Townhomes - 7420 186B St, City of Surrey",
+    thumbnail_desc: "",
     gallery: [
       west,
    
