@@ -182,28 +182,7 @@ const Contact = () => {
               <ContactSidebar onPhoneClick={handlePhoneClick} />
             </div>
 
-            {/* Additional Info */}
-            {/* <div className="bg-green-50 rounded-2xl p-8 lg:p-10 border border-green-200">
-              <h3 className="text-xl font-semibold text-green-800 mb-4">Why Choose Speedway Homes?</h3>
-              <ul className="space-y-3 text-green-700">
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">✓</span>
-                  <span>Family-owned and operated since the 1990s</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">✓</span>
-                  <span>Industry-leading build quality and craftsmanship</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">✓</span>
-                  <span>Personalized service and attention to detail</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-green-600 mr-3 mt-1">✓</span>
-                  <span>Comprehensive warranty and ongoing support</span>
-                </li>
-              </ul>
-            </div> */}
+           
           </div>
         </div>
       </div>

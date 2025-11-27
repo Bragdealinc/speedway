@@ -4,9 +4,9 @@ const ContactSidebar = ({
   email = "manveer@commounground-consulting.com",
   phone = "604-728-4243",
 }) => {
-  const handleEmailClick = (e) => {
-    e.preventDefault();
-    window.location.href = `mailto:${email}`;
+  const handleEmailClick = () => {
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}`;
+    window.open(gmailUrl, "_blank", "noopener,noreferrer");
   };
 
   return (
