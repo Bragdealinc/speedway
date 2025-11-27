@@ -21,22 +21,26 @@ const Footer = () => {
     navigate("/login");
   };
 
-  const handleNavigateCommunities = () => {
-    if (location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    } else {
+  const scrollToCommunitiesSection = () => {
+    setTimeout(() => {
       document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
+
+  const handleNavigateCommunities = (event) => {
+    event.preventDefault();
+    if (location.pathname === "/" && location.hash === "#communities") {
+      scrollToCommunitiesSection();
+      return;
     }
+    navigate("/#communities");
   };
 
   const footerLinks = [
-    { label: "Home", onClick: handleScrollToTop("/") },
-    { label: "Communities", onClick: handleNavigateCommunities },
-    { label: "About", onClick: handleScrollToTop("/about") },
-    { label: "Contact", onClick: handleScrollToTop("/contact") },
+    { label: "Home", href: "/", onClick: handleScrollToTop("/") },
+    { label: "Communities", href: "/communities", onClick: handleNavigateCommunities },
+    { label: "About", href: "/about", onClick: handleScrollToTop("/about") },
+    { label: "Contact", href: "/contact", onClick: handleScrollToTop("/contact") },
   ];
 
   const contactItems = [
@@ -103,10 +107,11 @@ const Footer = () => {
               Quick Links
             </h3>
             <ul className="space-y-3">
-              {footerLinks.map(({ label, onClick }) => (
+              {footerLinks.map(({ label, href, onClick }) => (
                 <li key={label}>
                   <a
-                    onClick={onClick}
+                    href={href}
+                    onClick={(event) => onClick?.(event)}
                     className="text-gray-300 hover:text-white transition-colors duration-300 text-sm cursor-pointer block py-1"
                   >
                     {label}

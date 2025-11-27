@@ -23,16 +23,22 @@ const Navbar = () => {
     };
   };
 
-  const handleNavigateCommunities = () => {
-    setIsMobileMenuOpen(false);
-    if (location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
-      }, 100);
-    } else {
+  const scrollToCommunitiesSection = () => {
+    setTimeout(() => {
       document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+  };
+
+  const handleNavigateCommunities = (event) => {
+    event.preventDefault();
+    setIsMobileMenuOpen(false);
+
+    if (location.pathname === "/" && location.hash === "#communities") {
+      scrollToCommunitiesSection();
+      return;
     }
+
+    navigate("/#communities");
   };
 
 

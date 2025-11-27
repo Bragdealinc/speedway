@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import "./index.css";
 import Landing from "./Landing/Landing";
 import Navbar from "./Navbar/Navbar";
@@ -19,25 +19,38 @@ import ExperienceBanner from "./experienceBanner/experienceBanner.jsx";
 import ComingSoonDisplay from "./ComingSoonDisplay/ComingSoonDisplay.jsx";
 import ProductDetail from "./ProductDetail/ProductDetail.jsx";
 
+function HomeLayout() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash !== "#communities") return;
+
+    const timer = setTimeout(() => {
+      document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [location.hash]);
+
+  return (
+    <>
+      <Landing />
+      <InfoSection />
+      <div id="comingsoon-section">
+        <ComingSoonDisplay />
+      </div>
+      <CommunitiesGrid />
+    </>
+  );
+}
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div className="overarching">
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Landing />
-                <InfoSection />
-                <div id="comingsoon-section">
-                  <ComingSoonDisplay />
-                  </div>
-                <CommunitiesGrid />
-              </>
-            }
-          />
+          <Route path="/" element={<HomeLayout />} />
 
           <Route
             path="/authUserLanding"
