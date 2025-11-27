@@ -153,7 +153,7 @@ export const allProjects = [
   },
   {
     id: "saffron",
-    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. Ctiy of Surrey",
+    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. City of Surrey",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
