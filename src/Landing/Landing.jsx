@@ -34,7 +34,7 @@ function Landing() {
         <div
           className="absolute z-30 text-white top-1/2 left-[40%] sm:left-[38%] md:left-[35%] lg:left-[28%] -translate-x-1/2 -translate-y-1/2"
         >
-          <h1 className="whitespace-nowrap overflow-hidden text-ellipsis font-black leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-[3.9rem]">
+          <h1 className="whitespace-nowrap overflow-hidden lg:pb-3 pb-1 text-ellipsis font-black leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-[3.9rem]">
             Evolving Spaces,
           </h1>
           <div className="relative">

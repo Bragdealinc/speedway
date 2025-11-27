@@ -33,7 +33,7 @@ import westClayton from "../assets/westClayton.png";
 export const allProjects = [
   {
     id: "latimer-Duplexes",
-    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street and 76 Avenue. Township of Langley",
+    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street and 76 Avenue, Township of Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Current",
@@ -116,7 +116,7 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street and 60 Avenue. City of Surrey",
+    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street and 60 Avenue, City of Surrey",
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
@@ -153,7 +153,7 @@ export const allProjects = [
   },
   {
     id: "saffron",
-    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue. City of Surrey",
+    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue, City of Surrey",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -190,7 +190,7 @@ export const allProjects = [
   },
   {
     id: "lotus-living",
-    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue Township of Langley",
+    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue, Township of Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
