@@ -82,12 +82,12 @@ export const allProjects = [
   },
   {
     id: "latimer-living",
-    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 ",
+    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 Townhomes - 18757 74 Avenue, City of Surrey ",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Coming Soon",
     image_url: westClayton,
-    thumbnail_desc: "Townhomes - 18757 74 Avenue, City of Surrey",
+    thumbnail_desc: "",
     gallery: [
    westClayton
     ],
@@ -190,12 +190,12 @@ export const allProjects = [
   },
   {
     id: "lotus-living",
-    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue",
+    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue Township of Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
     image_url: lotusImg,
-    thumbnail_desc: "Township of Langley",
+    thumbnail_desc: "",
     gallery: [
       lotusImg,
       community2Img,
@@ -232,7 +232,7 @@ export const allProjects = [
     type: "Townhomes",
     status: "Coming Soon",
     image_url: comingSoon1Img,
-    thumbnail_desc: "23-Unit Townhouse Project in 7065 204 St, Langley",
+    thumbnail_desc: "",
     gallery: [
       comingSoon1Img,
       communityImg,
