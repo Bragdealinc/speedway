@@ -21,10 +21,14 @@ const Footer = () => {
     navigate("/login");
   };
 
-  const handleNavigateCommunities = (e) => {
-    e.preventDefault();
+  const handleNavigateCommunities = () => {
     if (location.pathname !== "/") {
       navigate("/");
+      setTimeout(() => {
+        document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    } else {
+      document.getElementById("communities-section")?.scrollIntoView({ behavior: "smooth" });
     }
   };
 
