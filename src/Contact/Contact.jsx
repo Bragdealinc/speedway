@@ -147,7 +147,7 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
-                  onClick={() => window.open('/speedway_real_estate_form.pdf', '_blank')}
+                  onClick={() => window.open('/speedway_real_estate_form (2).pdf', '_blank')}
                   className="flex items-center justify-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-300"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -159,8 +159,8 @@ const Contact = () => {
                 <button
                   onClick={() => {
                     const link = document.createElement('a');
-                    link.href = '/speedway_real_estate_form.pdf';
-                    link.download = 'speedway_real_estate_form.pdf';
+                    link.href = '/speedway_real_estate_form (2).pdf';
+                    link.download = 'speedway_real_estate_form (2).pdf';
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
