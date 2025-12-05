@@ -172,7 +172,7 @@ const Footer = () => {
   href="https://bragdeal.com"
   className="text-blue-500 hover:text-blue-400 transition-colors duration-300 text-sm"
 >
-  Powered by <span className="underline">BragDeal Inc.</span>
+  Powered by <span>BragDeal Inc.</span>
 </a>
 
             </div>
