@@ -169,11 +169,12 @@ const Footer = () => {
                 Terms of Service
               </a>
               <a
-                href="https://acrsoftware.ca"
-                className="text-green-500 hover:text-green-400 transition-colors duration-300 text-sm"
-              >
-                Designed by ACR Software
-              </a>
+  href="https://bragdeal.com"
+  className="text-blue-500 hover:text-blue-400 transition-colors duration-300 text-sm"
+>
+  Powered by <span className="underline">BragDeal Inc.</span>
+</a>
+
             </div>
           </div>
         </div>
