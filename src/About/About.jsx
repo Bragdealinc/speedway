@@ -93,6 +93,8 @@ function About() {
               </h3>
               <p className="text-green-600 font-semibold mb-4">
                 VP of Development
+                <br/>
+                B.Eng (Civil Engineering)
               </p>
               <p className="text-gray-600 leading-relaxed text-left">
                 With a background in civil engineering and project management, Manveer combines technical expertise with a strategic, results-driven mindset that ensures success for Speedway Homes. Manveer balances technical, financial, regulatory, and site constraints to deliver efficient, practical, and high-quality outcomes. He is the founder of Common Ground Consulting, a development management firm trusted by leading developers to guide projects from concept through municipal approvals to final occupancy.
