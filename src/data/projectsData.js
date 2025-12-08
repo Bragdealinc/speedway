@@ -116,7 +116,7 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates (Sold Out) - 2740t single-family lots - 140 Street and 60 Avenue, City of Surrey",
+    project_name: "Suncrest Estates (Sold Out) - 27 single-family lots - 140 Street and 60 Avenue, City of Surrey",
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
