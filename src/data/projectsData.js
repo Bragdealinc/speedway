@@ -154,7 +154,7 @@ export const allProjects = [
   },
   {
     id: "latimer-living",
-    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 Townhomes - 18757 74 Avenue, City Of Surrey ",
+    project_name: "West Clayton Townhomes (Coming Soon) (Phase 2) - 22 Townhomes - 18757 74 Avenue, City Of Surrey ",
     location: "Surrey, BC",
     type: "Duplexes",
     status: "Coming Soon",
