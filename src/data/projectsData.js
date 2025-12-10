@@ -189,7 +189,7 @@ export const allProjects = [
   {
     id: "suncrest-estates",
     project_name: "Suncrest Estates (Sold Out) - 27 single-family lots - 140 Street and 60 Avenue, City of Surrey",
-    location: "Langley, BC",
+    location: "Surrey, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
     image_url: suncrest1,
@@ -227,7 +227,7 @@ suncrest29
     ],
     details: {
       description:
-        "Suncrest Estates represents the pinnacle of single-family living in Langley. This exclusive 27-lot subdivision offers spacious lots with custom home opportunities in a prime location.",
+        "Suncrest Estates represents the pinnacle of single-family living in Surrey. This exclusive 27-lot subdivision offers spacious lots with custom home opportunities in a prime location.",
       features: [
         "Large, well-designed lots",
         "Custom home building opportunities",
@@ -241,8 +241,7 @@ suncrest29
       specifications: {
         "Lot Types": "Single Family Lots",
         "Total Lots": "27 Lots",
-        "Lot Sizes": "6,000 - 8,000 sq ft",
-        Utilities: "Underground",
+        "Lot Sizes": "3,000 - 6,000 sq ft",
         Completion: "2021",
         Status: "Sold Out",
       },
@@ -251,7 +250,7 @@ suncrest29
   {
     id: "saffron",
     project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue, City of Surrey",
-    location: "Langley, BC",
+    location: "Surrey, BC",
     type: "Duplexes",
     status: "Sold Out",
     image_url: saffronImg,
@@ -275,7 +274,7 @@ suffronMain
       specifications: {
         "Unit Types": "2-3 Bedroom Duplexes",
         "Total Units": "26 Units",
-        "Square Footage": "1,200 - 1,800 sq ft",
+     "Lot Sizes": "3,000 - 6,000 sq ft",
         Parking: "2 Spaces per Unit",
         Completion: "2020",
         Status: "Sold Out",
@@ -310,7 +309,7 @@ suffronMain
       specifications: {
         "Unit Types": "2-3 Bedroom Townhomes",
         "Total Units": "94 Units",
-        "Square Footage": "1,000 - 1,400 sq ft",
+        "Square Footage": "1,500 - 1,800 sq ft",
         Parking: "1-2 Spaces per Unit",
         Completion: "2019",
         Status: "Sold Out",
@@ -354,7 +353,7 @@ elmridgeMain
   
   {
     id: "elmridge-central-gordon-23",
-    project_name: "West Clayton Townhomes (Comming Soon) (Phase 1) -19 Townhomes - 7420 186B St, City of Surrey",
+    project_name: "West Clayton Townhomes (Coming Soon) (Phase 1) -19 Townhomes - 7420 186B St, City of Surrey",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
