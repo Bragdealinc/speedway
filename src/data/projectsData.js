@@ -1,33 +1,82 @@
 import currentImg from "../assets/current.jpg";
-import currentProject1 from "../assets/current project/1-1.jpg";
-import currentProject2 from "../assets/current project/2-2.jpg";
-import currentProject3 from "../assets/current project/3-3.jpg";
-import currentProject4 from "../assets/current project/4-4.jpg";
-import currentProject5 from "../assets/current project/5-5.jpg";
-import currentProject6 from "../assets/current project/6-6.jpg";
-import currentProject7 from "../assets/current project/7-7.jpg";
-import currentProject8 from "../assets/current project/8-8.jpg";
-import currentProject9 from "../assets/current project/9-9.jpg";
-import currentProject10 from "../assets/current project/10-9a.jpg";
-import currentProject11 from "../assets/current project/11-10.jpg";
-import currentProject12 from "../assets/current project/12-11.jpg";
-import currentProject13 from "../assets/current project/13-12.jpg";
-import currentProject14 from "../assets/current project/14-13.jpg";
-import currentProject15 from "../assets/current project/15-14.jpg";
-import currentProject16 from "../assets/current project/16-15.jpg";
-import community2Img from "../assets/community2.jpg";
-import communityImg from "../assets/community.jpg";
-import community3Img from "../assets/community3.jpg";
-import familyImg from "../assets/family.jpg";
-import family2Img from "../assets/family2.jpg";
-import subdivisionImg from "../assets/27-Lot Subdivision.jpg";
-import houseBackgroundImg from "../assets/houseBackground.jpg";
-import playingImg from "../assets/playing.jpg";
+import currentProject1 from "../assets/latimer/1-1.jpg";
+import currentProject2 from "../assets/latimer/1-2.jpg";
+import currentProject3 from "../assets/latimer/1-3.jpg";
+import currentProject4 from "../assets/latimer/1-4.jpg";
+import currentProject5 from "../assets/latimer/1-5.jpg";
+import currentProject6 from "../assets/latimer/1-6.jpg";
+import currentProject7 from "../assets/latimer/1-7.jpg";
+import currentProject8 from "../assets/latimer/1-8.jpg";
+import currentProject9 from "../assets/latimer/1-9.jpg";
+import currentProject10 from "../assets/latimer/1-10.jpg";
+import currentProject11 from "../assets/latimer/1-11.jpg";
+import currentProject12 from "../assets/latimer/1-12.jpg";
+import currentProject13 from "../assets/latimer/1-13.jpg";
+import currentProject14 from "../assets/latimer/1-14.jpg";
+import currentProject15 from "../assets/latimer/1-15.jpg";
+import currentProject16 from "../assets/latimer/1-16.jpg";
+import currentProject17 from "../assets/latimer/1-17.jpg";
+import currentProject18 from "../assets/latimer/1-18.jpg";
+import currentProject19 from "../assets/latimer/1-19.jpg";
+import currentProject20 from "../assets/latimer/1-20.jpg";
+import currentProject21 from "../assets/latimer/1-21.jpg";
+import currentProject22 from "../assets/latimer/1-22.jpg";
+import currentProject23 from "../assets/latimer/1-23.jpg";
+import currentProject24 from "../assets/latimer/1-24.jpg";
+import currentProject25 from "../assets/latimer/1-25.jpg";
+import currentProject26 from "../assets/latimer/1-26.jpg";
+import currentProject27 from "../assets/latimer/1-27.jpg";
+import currentProject28 from "../assets/latimer/1-28.jpg";
+import currentProject29 from "../assets/latimer/1-29.jpg";
+import currentProject30 from "../assets/latimer/1-30.jpg";
+import currentProject31 from "../assets/latimer/1-31.jpg";
+import currentProject32 from "../assets/latimer/1-32.jpg";
+import currentProject33 from "../assets/latimer/1-33.jpg";
+import currentProject34 from "../assets/latimer/1-34.jpg";
+import currentProject35 from "../assets/latimer/1-35.jpg";
+import currentProject36 from "../assets/latimer/1-36.jpg";
+import currentProject37 from "../assets/latimer/1-37.jpg";
+import currentProject38 from "../assets/latimer/1-38.jpg";
+import currentProject39 from "../assets/latimer/1-39.jpg";
+
+
+import suncrest1 from "../assets/suncrest/1-1.jpg";
+import suncrest2 from "../assets/suncrest/2-2.jpg";
+import suncrest3 from "../assets/suncrest/3-3.jpg";
+import suncrest4 from "../assets/suncrest/4-4.jpg";
+import suncrest5 from "../assets/suncrest/5-5.jpg";
+import suncrest6 from "../assets/suncrest/6-6.jpg";
+import suncrest7 from "../assets/suncrest/7-7.jpg";
+import suncrest8 from "../assets/suncrest/8-8.jpg";
+import suncrest9 from "../assets/suncrest/9-9.jpg";
+import suncrest10 from "../assets/suncrest/10-10.jpg";
+import suncrest11 from "../assets/suncrest/11-11.jpg";
+import suncrest12 from "../assets/suncrest/12-12.jpg";
+import suncrest13 from "../assets/suncrest/13-13.jpg";
+import suncrest14 from "../assets/suncrest/14-14.jpg";
+import suncrest15 from "../assets/suncrest/15-15.jpg";
+import suncrest16 from "../assets/suncrest/16-16.jpg";
+import suncrest17 from "../assets/suncrest/17-17.jpg";
+import suncrest18 from "../assets/suncrest/18-18.jpg";
+import suncrest19 from "../assets/suncrest/19-19.jpg";
+import suncrest20 from "../assets/suncrest/20-20.jpg";
+import suncrest21 from "../assets/suncrest/21-21.jpg";
+import suncrest22 from "../assets/suncrest/22-22.jpg";
+import suncrest23 from "../assets/suncrest/23-23.jpg";
+import suncrest24 from "../assets/suncrest/24-24.jpg";
+import suncrest25 from "../assets/suncrest/25-25.jpg";
+import suncrest26 from "../assets/suncrest/26-26.jpg";
+import suncrest27 from "../assets/suncrest/27-27.jpg";
+import suncrest28 from "../assets/suncrest/28-28.jpg";
+import suncrest29 from "../assets/suncrest/29-29.jpg";
+
+
+import suffronMain from "../assets/suffron/suffron.png";
+import elmridgeMain from "../assets/elmridge/elmridge.png";
+
 import saffronImg from "../assets/Saffron Living - Duplexes .png";
-import handshakeImg from "../assets/handshake.jpg";
 import lotusImg from "../assets/Lotus Living - Townhouses.jpg";
-import comingSoon1Img from "../assets/comming-soon-1.png";
-import west from "../assets/west.png";
+import westPhase1 from "../assets/west-phase-1/west-1.png";
 import westClayton from "../assets/westClayton.png";
 
 export const allProjects = [
@@ -56,6 +105,29 @@ export const allProjects = [
       currentProject14,
       currentProject15,
       currentProject16,
+      currentProject17,
+      currentProject18,
+      currentProject19,
+      currentProject20,
+      currentProject21,
+      currentProject22,
+      currentProject23,
+      currentProject24,
+      currentProject25,
+      currentProject26,
+      currentProject27,
+      currentProject28,
+      currentProject29,
+      currentProject30,
+      currentProject31,
+      currentProject32,
+      currentProject33,
+      currentProject34,
+      currentProject35,
+      currentProject36,
+      currentProject37,
+      currentProject38,
+      currentProject39,
     ],
     details: {
       description:
@@ -120,13 +192,38 @@ export const allProjects = [
     location: "Langley, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
-    image_url: subdivisionImg,
+    image_url: suncrest1,
     thumbnail_desc: "",
     gallery: [
-      subdivisionImg,
-      houseBackgroundImg,
-      family2Img,
-      playingImg,
+          suncrest1,
+suncrest2,
+suncrest3,
+suncrest4,
+suncrest5,
+suncrest6,
+suncrest7,
+suncrest8,
+suncrest9,
+suncrest10,
+suncrest11,
+suncrest12,
+suncrest13,
+suncrest14,
+suncrest15,
+suncrest16,
+suncrest17,
+suncrest18,
+suncrest19,
+suncrest20,
+suncrest21,
+suncrest22,
+suncrest23,
+suncrest24,
+suncrest25,
+suncrest26,
+suncrest27,
+suncrest28,
+suncrest29
     ],
     details: {
       description:
@@ -160,10 +257,7 @@ export const allProjects = [
     image_url: saffronImg,
     thumbnail_desc: "",
     gallery: [
-      saffronImg,
-      communityImg,
-      handshakeImg,
-      familyImg,
+suffronMain
     ],
     details: {
       description:
@@ -198,9 +292,7 @@ export const allProjects = [
     thumbnail_desc: "",
     gallery: [
       lotusImg,
-      community2Img,
-      family2Img,
-      playingImg,
+      
     ],
     details: {
       description:
@@ -231,13 +323,10 @@ export const allProjects = [
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: comingSoon1Img,
+    image_url: elmridgeMain,
     thumbnail_desc: "",
     gallery: [
-      comingSoon1Img,
-      communityImg,
-      houseBackgroundImg,
-      familyImg,
+elmridgeMain
     ],
     details: {
       description:
@@ -269,11 +358,10 @@ export const allProjects = [
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
-    image_url: west,
+    image_url: westPhase1,
     thumbnail_desc: "",
     gallery: [
-      west,
-   
+      westPhase1,
     ],
     details: {
       description:
