@@ -82,7 +82,7 @@ import westClayton from "../assets/westClayton.png";
 export const allProjects = [
   {
     id: "latimer-Duplexes",
-    project_name: "Latimer Living (Sold Out) - 14 duplexes -196 Street and 76 Avenue, Township of Langley",
+    project_name: "Latimer Living (Sold Out) - 14 Duplexes -196 Street And 76 Avenue, Township Of Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Current",
@@ -154,8 +154,8 @@ export const allProjects = [
   },
   {
     id: "latimer-living",
-    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 Townhomes - 18757 74 Avenue, City of Surrey ",
-    location: "Langley, BC",
+    project_name: "West Clayton Townhomes (Comming Soon) (Phase 2) - 22 Townhomes - 18757 74 Avenue, City Of Surrey ",
+    location: "Surrey, BC",
     type: "Duplexes",
     status: "Coming Soon",
     image_url: westClayton,
@@ -188,7 +188,7 @@ export const allProjects = [
   },
   {
     id: "suncrest-estates",
-    project_name: "Suncrest Estates (Sold Out) - 27 single-family lots - 140 Street and 60 Avenue, City of Surrey",
+    project_name: "Suncrest Estates (Sold Out) - 27 Single-family lots - 140 Street And 60 Avenue, City Of Surrey",
     location: "Surrey, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
@@ -249,7 +249,7 @@ suncrest29
   },
   {
     id: "saffron",
-    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street and 60 Avenue, City of Surrey",
+    project_name: "Saffron (Sold Out) - 26 Duplexes - 141 Street And 60 Avenue, City Of Surrey",
     location: "Surrey, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -283,7 +283,7 @@ suffronMain
   },
   {
     id: "lotus-living",
-    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue, Township of Langley",
+    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
@@ -318,7 +318,7 @@ suffronMain
   },
   {
     id: "elmridge-central-gordon-23 k",
-    project_name: "Elmridge Estates (Coming Soon) - 23 Townhomes - 7065 204 Street. Township of Langley",
+    project_name: "Elmridge Estates (Coming Soon) - 23 Townhomes - 7065 204 Street. Township Of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
     status: "Coming Soon",
@@ -354,7 +354,7 @@ elmridgeMain
   {
     id: "elmridge-central-gordon-23",
     project_name: "West Clayton Townhomes (Coming Soon) (Phase 1) -19 Townhomes - 7420 186B St, City of Surrey",
-    location: "7065 204 St, Langley",
+    location: "7065 204 St, Surrey",
     type: "Townhomes",
     status: "Coming Soon",
     image_url: westPhase1,
