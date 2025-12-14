@@ -84,6 +84,9 @@ export const allProjects = [
     {
     id: "lotus-living",
     project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
+    units: "Lotus Living (Sold Out) - 94",
+    name: "Townhomes - 20860 76 Avenue, Township Of,",
+    city: "Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
@@ -119,6 +122,9 @@ export const allProjects = [
   {
     id: "saffron",
     project_name: "Saffron Living 26-Unit Duplex Development 141 Street and 60 Avenue City of Surrey",
+    units: "Saffron Living (Sold Out) - 26",
+    name: "Duplexes - 141 Street and 60 Avenue, City of Surrey,",
+    city: "City of Surrey",
     location: "Surrey, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -152,6 +158,9 @@ suffronMain
   {
     id: "suncrest-estates",
     project_name: "Suncrest Estates 27-lot Single Family Subdivision 140 Street and 60 Avenue City of Surrey",
+    units: "Suncrest Estates (Sold Out) - 27",
+    name: "Single Family Subdivision - 140 Street and 60 Avenue,",
+    city: "City of Surrey",
     location: "Surrey, BC",
     type: "Single-family subdivision",
     status: "Sold Out",
@@ -212,6 +221,9 @@ suncrest29
   {
     id: "latimer-Living",
     project_name: "Latimer Living 14-Unit Duplex Development 76 Avenue & 196 Street Township of Langley",
+    units: "Latimer Living 14-Unit",
+    name: "Duplex Development 76 Avenue & 196 Street Township of,",
+    city: "Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -283,6 +295,9 @@ suncrest29
   },
   {
     id: "elmridge-central-gordon-23",
+    units: "Elmridge Estates 23-Unit",
+    name: "Townhouse Development 7065 204 Street Township of,",
+    city: "Langley",
     project_name: "Elmridge Estates 23-Unit Townhouse Development 7065 204 Street Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
@@ -319,6 +334,9 @@ elmridgeMain
   {
     id: "West-Clayton-phase-1",
     project_name: "West Clayton (Phase 1) 19-Unit Townhouse Development 7420 186B Street City of Surrey",
+    units: "West Clayton (Phase 1) 19-Unit",
+    name: "Townhouse Development 7420 186B Street City of,",
+    city: "City of Surrey",
     location: "Surrey, BC",
     type: "Townhomes",
     status: "Coming Soon",
@@ -351,6 +369,9 @@ elmridgeMain
   {
     id: "West-Clayton",
     project_name: "West Clayton (Phase 2) 22-Unit Townhouse Development 18757 74 Avenue City of Surrey",
+    units: "West Clayton (Phase 2) 22-Unit",
+    name: "Townhouse Development 18757 74 Avenue City of,",
+    city: "City of Surrey",
     location: "Surrey, BC",
     type: "Duplexes",
     status: "Coming Soon",

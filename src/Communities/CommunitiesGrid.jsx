@@ -239,8 +239,10 @@ function CommunitiesGrid() {
                     </div>
                   </div>
                   <div className="px-3 pt-3 pb-4 sm:px-5 sm:pt-5 sm:pb-6">
-                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-2 mb-2 sm:mb-3">
-                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.project_name}</h3>
+                    <div className="flex flex-col  sm:justify-between sm:items-baseline gap-1 sm:gap-2 mb-2 sm:mb-3 ">
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.units}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.name}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.city}</h3>
                      
                     </div>
                     <p className="text-gray-700 text-sm lg:text-lg leading-relaxed">{c.thumbnail_desc}</p>
