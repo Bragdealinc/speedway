@@ -22,11 +22,7 @@ function InfoSection() {
           mainland.
         </h2>
         <p className="WhyInsulateText">
-          Speedway Homes is a family-run business specializing in
-          residential developments. Speedway Homes is committed to quality and
-          excellence, focusing on delivering exceptional service and innovative
-          solutions for each project. Whether you need a new home or a wise
-          investment, trust Speedway Homes for all your real estate needs.
+Speedway Homes is a family-run residential development and construction company. We are committed to providing quality and functionality in every unit. If you are looking for your next home, a wise investment, or a development partner, please reach out to connect.
           <br />
           <button
             className="ServiceButton"

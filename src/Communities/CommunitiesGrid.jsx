@@ -13,11 +13,11 @@ function CommunitiesGrid() {
   const [screenSize, setScreenSize] = useState('desktop');
   const sliderRef = useRef(null);
 
-  const currentProjects = allProjects.filter(project => project.status === 'Current');
+  const currentProjects = allProjects.filter(project => project.status === 'Selling Now');
   const completedProjects = allProjects.filter(project => project.status === 'Sold Out');
   const comingSoonProjects = allProjects.filter(project => project.status === 'Coming Soon');
 
-  const allProjectsList = [...completedProjects, ...comingSoonProjects, ...currentProjects];
+  const allProjectsList = [...completedProjects, ...currentProjects,  ...comingSoonProjects];
 
   const getStatusClass = (status) => {
     if (status === 'Sold Out') return 'bg-[#9e9e9e]';
@@ -33,7 +33,7 @@ function CommunitiesGrid() {
       ? allProjectsList
       : activeTab === 'Completed'
       ? completedProjects
-      : activeTab === 'Current'
+      : activeTab === 'Selling Now'
       ? currentProjects
       : comingSoonProjects;
 
@@ -63,7 +63,7 @@ function CommunitiesGrid() {
         setCurrentSlide((prevSlide) => {
           return (prevSlide + 1) % list.length;
         });
-      }, 3000);
+      }, 6000);
 
       return () => clearInterval(interval);
     }
@@ -104,7 +104,7 @@ function CommunitiesGrid() {
     }
     
     setIsDragging(false);
-    setTimeout(() => setIsPaused(false), 1000);
+    setTimeout(() => setIsPaused(false), 6000);
   };
 
 
@@ -135,7 +135,7 @@ function CommunitiesGrid() {
     }
     
     setIsDragging(false);
-    setTimeout(() => setIsPaused(false), 1000);
+    setTimeout(() => setIsPaused(false), 6000);
   };
 
   const handleCardClick = (project) => {
@@ -166,8 +166,8 @@ function CommunitiesGrid() {
               onClick={() => setActiveTab('Coming Soon')}>
               Coming Soon
             </button>
-            <button className={tabClasses('Current')} onClick={() => setActiveTab('Current')}>
-              Current{' '}
+            <button className={tabClasses('Selling Now')} onClick={() => setActiveTab('Selling Now')}>
+              Selling Now{' '}
             </button>
           </div>
         </div>
