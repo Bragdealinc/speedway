@@ -85,7 +85,7 @@ export const allProjects = [
     id: "lotus-living",
     project_name: "Lotus Living - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
     units: "Lotus Living",
-    name: " 94 Townhomes - 20860 76 Avenue",
+    name: " 94-unit Townhomes Development  20860 76 Avenue",
     city: " Township Of Langley",
     location: "Langley, BC",
     type: "Townhomes",
