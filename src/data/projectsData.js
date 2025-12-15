@@ -83,10 +83,10 @@ export const allProjects = [
 
     {
     id: "lotus-living",
-    project_name: "Lotus Living (Sold Out) - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
-    units: "Lotus Living (Sold Out) - 94",
-    name: "Townhomes - 20860 76 Avenue, Township Of,",
-    city: "Langley",
+    project_name: "Lotus Living - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
+    units: "Lotus Living - 94",
+    name: "Townhomes - 20860 76 Avenue,",
+    city: " Township Of, Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
@@ -122,8 +122,8 @@ export const allProjects = [
   {
     id: "saffron",
     project_name: "Saffron Living 26-Unit Duplex Development 141 Street and 60 Avenue City of Surrey",
-    units: "Saffron Living (Sold Out) - 26",
-    name: "Duplexes - 141 Street and 60 Avenue, City of Surrey,",
+    units: "Saffron Living - 26",
+    name: "Duplexes - 141 Street and 60 Avenue,",
     city: "City of Surrey",
     location: "Surrey, BC",
     type: "Duplexes",
@@ -158,7 +158,7 @@ suffronMain
   {
     id: "suncrest-estates",
     project_name: "Suncrest Estates 27-lot Single Family Subdivision 140 Street and 60 Avenue City of Surrey",
-    units: "Suncrest Estates (Sold Out) - 27",
+    units: "Suncrest Estates - 27",
     name: "Single Family Subdivision - 140 Street and 60 Avenue,",
     city: "City of Surrey",
     location: "Surrey, BC",
@@ -222,8 +222,8 @@ suncrest29
     id: "latimer-Living",
     project_name: "Latimer Living 14-Unit Duplex Development 76 Avenue & 196 Street Township of Langley",
     units: "Latimer Living 14-Unit",
-    name: "Duplex Development 76 Avenue & 196 Street Township of,",
-    city: "Langley",
+    name: "Duplex Development 76 Avenue & 196 Street, ",
+    city: "Township of Langley",
     location: "Langley, BC",
     type: "Duplexes",
     status: "Sold Out",
@@ -296,8 +296,8 @@ suncrest29
   {
     id: "elmridge-central-gordon-23",
     units: "Elmridge Estates 23-Unit",
-    name: "Townhouse Development 7065 204 Street Township of,",
-    city: "Langley",
+    name: "Townhouse Development 7065 204 Street,",
+    city: " Township of Langley",
     project_name: "Elmridge Estates 23-Unit Townhouse Development 7065 204 Street Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
@@ -309,7 +309,7 @@ elmridgeMain
     ],
     details: {
       description:
-        "Elmridge Estates is a boutique community of large townhomes — allowing residents to maintain their privacy in the comfort of units nearing 2,000 square feet.",
+        "Elmridge Estates is a boutique community of large townhomes  allowing residents to maintain their privacy in the comfort of units nearing 2,000 square feet.",
       features: [
         "Traditional townhome design",
         "Large, functional floor plans",
@@ -335,7 +335,7 @@ elmridgeMain
     id: "West-Clayton-phase-1",
     project_name: "West Clayton (Phase 1) 19-Unit Townhouse Development 7420 186B Street City of Surrey",
     units: "West Clayton (Phase 1) 19-Unit",
-    name: "Townhouse Development 7420 186B Street City of,",
+    name: "Townhouse Development 7420 186B Street",
     city: "City of Surrey",
     location: "Surrey, BC",
     type: "Townhomes",
