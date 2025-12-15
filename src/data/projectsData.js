@@ -85,8 +85,8 @@ export const allProjects = [
     id: "lotus-living",
     project_name: "Lotus Living - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
     units: "Lotus Living",
-    name: " 94-unit Townhomes Development  20860 76 Avenue",
-    city: " Township Of Langley",
+    name: " 94-Unit Townhouse Development 20860 76 Avenue",
+    city: "Township of Langley",
     location: "Langley, BC",
     type: "Townhomes",
     status: "Sold Out",
@@ -122,8 +122,8 @@ export const allProjects = [
   {
     id: "saffron",
     project_name: "Saffron Living 26-Unit Duplex Development 141 Street and 60 Avenue City of Surrey",
-    units: "Saffron Living ",
-    name: "26 Duplexes - 141 Street and 60 Avenue",
+    units: "Saffron Living",
+    name: "26-Unit Duplex Development 141 Street and 60 Avenue",
     city: "City of Surrey",
     location: "Surrey, BC",
     type: "Duplexes",
@@ -156,10 +156,14 @@ suffronMain
     },
   },
   {
+
+   
+
+
     id: "suncrest-estates",
     project_name: "Suncrest Estates 27-lot Single Family Subdivision 140 Street and 60 Avenue City of Surrey",
     units: "Suncrest Estates",
-    name: "27 Single Family Subdivision - 140 Street and 60 Avenue",
+    name: "27-lot Single Family Subdivision 140 Street and 60 Avenue",
     city: "City of Surrey",
     location: "Surrey, BC",
     type: "Single-family subdivision",
@@ -295,9 +299,9 @@ suncrest29
   },
   {
     id: "elmridge-central-gordon-23",
-    units: "Elmridge Estates ",
+    units: "Elmridge Estates",
     name: " 23-Unit Townhouse Development 7065 204 Street",
-    city: " Township of Langley",
+    city: "Township of Langley",
     project_name: "Elmridge Estates 23-Unit Townhouse Development 7065 204 Street Township of Langley",
     location: "7065 204 St, Langley",
     type: "Townhomes",
@@ -335,7 +339,7 @@ elmridgeMain
     id: "West-Clayton-phase-1",
     project_name: "West Clayton (Phase 1) 19-Unit Townhouse Development 7420 186B Street City of Surrey",
     units: "West Clayton (Phase 1)",
-    name: "  19-Unit Townhouse Development 7420 186B Street",
+    name: "19-Unit Townhouse Development 7420 186B Street",
     city: "City of Surrey",
     location: "Surrey BC",
     type: "Townhomes",
