@@ -218,7 +218,7 @@ function CommunitiesGrid() {
             {list.map((c, index) => (
               <div key={c.id} className="w-full sm:w-1/2 lg:w-1/3 flex-shrink-0 px-1 sm:px-2">
                 <div
-                  className="group bg-white border border-gray-200 rounded-lg sm:rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-2xl hover:ring-black/10 transform-gpu cursor-pointer"
+                  className="group bg-white  border-gray-200 rounded-lg sm:rounded-xl overflow-hidden shadow-lg ring-1 ring-black/5 transition-all duration-500 ease-out hover:-translate-y-1 hover:shadow-2xl hover:ring-black/10 transform-gpu cursor-pointer"
                   onClick={() => handleCardClick(c)}  
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') handleCardClick(c);
@@ -229,7 +229,7 @@ function CommunitiesGrid() {
                     <img
                       src={c.image_url}
                       alt={c.project_name}
-                      className="w-full h-[250px] sm:h-[300px] lg:h-[400px] object-cover transition-transform duration-300 ease-out group-hover:scale-105"
+                      className="w-full h-[250px] sm:h-[300px] lg:h-[520px] object-fit transition-transform duration-300 ease-out group-hover:scale-105"
                     />
                     <div
                       className={`absolute top-2 left-2 sm:top-3 sm:left-3 px-2 py-1 sm:px-3 sm:py-1.5 rounded text-white text-xs sm:text-sm font-medium ${getStatusClass(
@@ -240,9 +240,10 @@ function CommunitiesGrid() {
                   </div>
                   <div className="px-3 pt-3 pb-4 sm:px-5 sm:pt-5 sm:pb-6">
                     <div className="flex flex-col  sm:justify-between sm:items-baseline gap-1 sm:gap-2 mb-2 sm:mb-3 ">
-                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.units}</h3>
                       <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.name}</h3>
-                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.city}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.units}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.number}</h3>
+                      <h3 className="m-0 text-sm lg:text-lg font-medium text-gray-900 ">{c.location}</h3>
                      
                     </div>
                     <p className="text-gray-700 text-sm lg:text-lg leading-relaxed">{c.thumbnail_desc}</p>

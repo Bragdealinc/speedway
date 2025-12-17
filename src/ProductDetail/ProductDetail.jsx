@@ -42,11 +42,11 @@ function ProductDetail() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              {/* <h1 className="text-4xl font-bold text-gray-900 mb-6">{project.project_name}</h1> */}
-              <h3 className="text-2xl font-bold text-gray-900 mb-0">{project.units}</h3>
               <h3 className="text-2xl font-bold text-gray-900 mb-0">{project.name}</h3>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">{project.city}</h3>
-              <p className="text-xl text-gray-600 mb-4">{project.location}</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-0">{project.units}</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{project.number}</h3>
+              <p className="text-lg font-bold text-gray-900 mb-4">{project.location}</p>
+              
               <p className="text-lg text-gray-700 leading-relaxed">{project.details.description}</p>
             </div>
 
