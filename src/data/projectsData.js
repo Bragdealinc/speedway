@@ -312,7 +312,7 @@ elmridgeMain
     ],
     details: {
       description:
-        "Elmridge Estates is a boutique community of large townhomes - allowing residents to maintain their privacy in the comfort of units nearing 2,000 square feet.",
+        "Elmridge Estates is a boutique community of large townhomes allowing residents to maintain their privacy in the comfort of units nearing 2,000 square feet.",
       features: [
         "Traditional Townhome Design",
         "Large, functional floor plans",
