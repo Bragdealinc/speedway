@@ -325,10 +325,10 @@ elmridgeMain
       specifications: {
         "Unit Types": "4 Bedroom Townhomes",
         "Total Units": "23 Units",
-        "Square Footage": "1600 - 2100 sq ft",
+        "Square Footage": "1600 - 2000 sq ft",
         Parking: "2 Spaces per Unit",
         "Completion": "2027",
-        Status: "Selling Now",
+        Status: "Construction",
       },
     },
   },
