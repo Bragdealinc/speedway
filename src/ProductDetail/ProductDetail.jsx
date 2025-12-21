@@ -11,6 +11,10 @@ function ProductDetail() {
 
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [projectId]);
+
+  useEffect(() => {
     const foundProject = allProjects.find(p => p.id === projectId);
     if (foundProject) {
       setProject(foundProject);
