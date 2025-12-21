@@ -102,11 +102,11 @@ export const allProjects = [
       features: [
         "3-4 bedroom layouts",
         "Private balconies and patios",
-        "Outdoor and indoor amenity space.",
-        "Premium appliance packages.",
+        "Outdoor and indoor amenity space",
+        "Premium appliance packages",
       ],
       specifications: {
-        "Unit Types": "3-4 Bedroom Townhomes.",
+        "Unit Types": "3-4 Bedroom Townhomes",
         "Total Units": "94 Units",
         "Square Footage": "1,500 - 1,800 sq ft",
         Parking: "1-2 Spaces per Unit",
@@ -363,7 +363,7 @@ elmridgeMain
       specifications: {
         "Unit Types": "4 Bedroom Townhomes",
         "Total Units": "19 Units",
-        "Square Footage": "1600 square foot units.",
+        "Square Footage": "1600 square foot units",
         "Expected Completion": "2028",
         "Status": "Permitting",
       },
@@ -396,9 +396,9 @@ elmridgeMain
         "Indoor and outdoor amenity spaces",
       ],
       specifications: {
-        "Unit Types": "4-bedroom townhomes.",
+        "Unit Types": "4-bedroom townhomes",
         "Total Units": "22 Units",
-        "Square Footage": "1600 square foot units.",
+        "Square Footage": "1600 square foot units",
         Parking: "2 Spaces per Unit",
         Completion: "2029",
         Status: "Permitting"
