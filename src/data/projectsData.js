@@ -38,8 +38,6 @@ import currentProject36 from "../assets/latimer/1-36.jpg";
 import currentProject37 from "../assets/latimer/1-37.jpg";
 import currentProject38 from "../assets/latimer/1-38.jpg";
 import currentProject39 from "../assets/latimer/1-39.jpg";
-
-
 import suncrest1 from "../assets/suncrest/1-1.jpg";
 import suncrest2 from "../assets/suncrest/2-2.jpg";
 import suncrest3 from "../assets/suncrest/3-3.jpg";
@@ -69,11 +67,8 @@ import suncrest26 from "../assets/suncrest/26-26.jpg";
 import suncrest27 from "../assets/suncrest/27-27.jpg";
 import suncrest28 from "../assets/suncrest/28-28.jpg";
 import suncrest29 from "../assets/suncrest/29-29.jpg";
-
-
 import suffronMain from "../assets/suffron/suffron.jpg";
 import elmridgeMain from "../assets/elmridge/elmridge.png";
-
 import saffronImg from "../assets/Saffron Living - Duplexes .png";
 import lotusImg from "../assets/Lotus Living - Townhouses.jpg";
 import westPhase1 from "../assets/west-phase-1/west-1.png";
@@ -81,7 +76,7 @@ import westClayton from "../assets/westClayton.png";
 
 export const allProjects = [
 
-    {
+  {
     id: "lotus-living",
     project_name: "Lotus Living - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
     name: "Lotus Living",
@@ -288,7 +283,7 @@ suncrest29
       specifications: {
         "Unit Types": "4-5 Bedroom Duplexes",
         "Total Units": "14 Units",
-        "Square Footage": "2300 sqft",
+        "Square Footage": "2300 sq ft",
         Parking: "2 Spaces per Unit",
         Completion: "2025",
         Developer: "Speedway Homes",
@@ -332,8 +327,6 @@ elmridgeMain
       },
     },
   },
-
-
   {
     id: "West-Clayton-phase-1",
     project_name: "West Clayton (Phase 1) 19-Unit Townhouse Development 7420 186B Street City of Surrey",
@@ -363,7 +356,7 @@ elmridgeMain
       specifications: {
         "Unit Types": "4 Bedroom Townhomes",
         "Total Units": "19 Units",
-        "Square Footage": "1600 square foot units",
+        "Square Footage": "1600 sq ft",
         "Expected Completion": "2028",
         "Status": "Permitting",
       },
@@ -398,7 +391,7 @@ elmridgeMain
       specifications: {
         "Unit Types": "4-bedroom townhomes",
         "Total Units": "22 Units",
-        "Square Footage": "1600 square foot units",
+        "Square Footage": "1600 sq ft",
         Parking: "2 Spaces per Unit",
         Completion: "2029",
         Status: "Permitting"
