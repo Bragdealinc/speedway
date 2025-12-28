@@ -75,7 +75,6 @@ import westPhase1 from "../assets/west-phase-1/west-1.png";
 import westClayton from "../assets/westClayton.png";
 
 export const allProjects = [
-
   {
     id: "lotus-living",
     project_name: "Lotus Living - 94 Townhomes - 20860 76 Avenue, Township Of Langley",
@@ -398,6 +397,4 @@ elmridgeMain
       },
     },
   },
-
-  
 ];

@@ -1,7 +1,7 @@
 const ContactSidebar = ({
   onPhoneClick,
   locationText = "Surrey, BC",
-  email = "manveer@commounground-consulting.com",
+  email = "manveer@commonground-consulting.com",
   phone = "604-728-4243",
 }) => {
   const handleEmailClick = () => {
